@@ -64,6 +64,10 @@ header .menu li a:hover {
   color: #4090bb;
 }
 
+.social-links i {
+  font-family: serif !important;
+}
+
 @media (max-width: 768px) {
   header {
     position: fixed;

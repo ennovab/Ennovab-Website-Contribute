@@ -13,10 +13,6 @@ body {
   color: #444444;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 a {
   color: var(--secondary-color);
 }
@@ -39,7 +35,7 @@ h6 {
 }
 
 * {
-  font-family: sans-serif;
+  font-family: sans-serif !important;
 }
 
 /*--------------------------------------------------------------
@@ -51,14 +47,12 @@ section {
 
 .section-title {
   text-transform: capitalize;
-  font-size: 9vw;
   font-weight: 700;
   font-family: 'Poppins', sans-serif !important;
   color: var(--gray);
 }
 
 .section-title span {
-  font-size: 12vw;
   margin-left: 7px;
 }
 
@@ -101,8 +95,6 @@ section {
 
 #hero .container {
   position: relative;
-  padding-top: 74px;
-  text-align: center;
 }
 
 #hero h1 {
@@ -110,21 +102,16 @@ section {
   font-size: 9vw;
   font-weight: 700;
   line-height: 8rem;
-  color: rgba(255, 255, 255, 0);
-  text-align: center;
+  color: white;
   font-family: 'Poppins', sans-serif !important;
-  -webkit-text-stroke: 2px white;
 }
 
 #hero h1 span {
-  color: rgba(255, 197, 81, 0);
   font-size: 13vw;
-  -webkit-text-stroke-color: var(--accent-color);
 }
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
-  margin: 50px 0 0 0;
   font-size: 2.3vw;
 }
 
@@ -134,12 +121,6 @@ section {
   }
   #hero h1 {
     line-height: 36px;
-    -webkit-text-stroke: unset;
-    color: white;
-  }
-  #hero h1 span {
-    -webkit-text-stroke: unset;
-    color: var(--accent-color);
   }
   #hero h2 {
     font-size: 6vw;
@@ -150,10 +131,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .container .form {
-  margin-top: 100px;
-}
-
 .about .container .form h2 {
   font-size: 4rem;
   margin-bottom: 10px;
@@ -165,12 +142,11 @@ section {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.about .container .text-wrapper {
-  padding: 0 3%;
+i {
+  font-family: serif;
 }
 
 .about .container .text-wrapper h2 {
-  margin-bottom: 60px;
   font-size: 2.3rem;
 }
 
@@ -323,6 +299,10 @@ section {
   margin-top: 40px;
 }
 
+i {
+  font-family: serif;
+}
+
 .contact .info .email p a {
   color: var(--accent-color);
 }
@@ -345,6 +325,7 @@ footer .container .row {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  font-family: serif;
 }
 
 footer .social-links a {
@@ -353,6 +334,7 @@ footer .social-links a {
   background: #292929;
   color: #fff;
   line-height: 1;
+  font-family: serif !important;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 4px;
@@ -366,6 +348,10 @@ footer .social-links a:hover {
   background: var(--accent-color);
   color: #151515;
   text-decoration: none;
+}
+
+footer .social-links i {
+  font-family: sans-serif;
 }
 
 footer .mail-id {
