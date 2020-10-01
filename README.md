@@ -9,7 +9,7 @@
 
 No contribution is too small — bug fixes and documentation updates are valid ways of participating. 
 
-**Warnning:** You can only contribute to this repo if you have registered fot the event 'Introduction to FOSS' and joined the 'Ennovab' dischord server
+**Warnning:** You can only contribute to this repo if you have registered for the event **'Introduction to FOSS'** and joined the **'Ennovab' Discord Server**
 
 ### Link to live version 👇 <br>
 All the changes can be viewed on this link <br>
