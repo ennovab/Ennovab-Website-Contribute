@@ -81,6 +81,7 @@ section {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   position: relative;
+  background-size: cover;
 }
 
 #hero:before {
